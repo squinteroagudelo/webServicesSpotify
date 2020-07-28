@@ -1,0 +1,177 @@
+html,
+body {
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 20px;
+    margin: 0;
+}
+
+#nav-bar {
+    background: rgba(0, 0, 0, 0.46);
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+#img, #img1, #img2, #img3 {
+    max-height: 100vh;
+}
+
+#chevron {
+    bottom: 100px;
+    color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+#chevron span{
+    vertical-align: top;
+    font-size: x-large;
+}
+
+#chevron span:hover{
+    font-size: xx-large;
+    transition: all .3s ease-in-out;
+    animation-duration: 1s;
+    animation-name: spinner-border;
+}
+
+a .fab{
+    font-size: 24px;
+}
+
+.fa-spotify{
+    color: #1ED760;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.instagram{
+    background: -webkit-linear-gradient(#fcb045, #fd1d1d, #833ab4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #833ab4;
+}
+
+.fa-facebook-square{
+    color: #3B5998;
+}
+
+.fa-linkedin{
+    color: #0077B5;
+}
+
+#carouselExampleCaptions .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    outline-color: #01b8c6;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+footer a i {
+    font-size: 40px;
+    color: #fff;
+    margin: 0 10px 16px 0;
+}
+
+footer p {
+    margin: 1px;
+}
+
+#body{
+    overflow-y: hidden;
+}
+
+#sidebar-wrapper{
+    background: #0b1d38;
+    height: 100vh;
+    position: relative;
+    width: 320px;
+}
+
+#header-sidebar img{
+    border: solid 5px #ffffff;
+}
+
+.fa-arrow-left:hover{
+    font-size: xx-large;
+    animation-duration: 1s;
+    animation-name: spinner-border;
+}
+
+#social a i{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 .2em;
+}
+
+.fa-caret-right{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+}
+
+#footer-prof {
+    bottom: 0;
+    background: #0b1d38;
+    padding-bottom: 1em;
+    position: absolute;
+    width: 100%;
+}
+
+#profile-container{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.fa-html5{
+    color: #e44c26;
+}
+
+.fa-css3-alt{
+    color: #2162af;
+}
+
+.fa-js{
+    color: #e9d54d;
+}
+
+.fa-php{
+    color: #7477ae;
+}
+
+.fa-java{
+    color: #da0707;
+}
+
+#contact-container{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.active-view{
+    visibility: collapse;
+}
+
+#button{
+    border: solid 2px #0b1d38;
+    color: #0b1d38;
+    font-size: large;
+    font-weight: bold;
+}
+
+#button:hover{
+    background: #0b1d38;
+    color: #ffffff;
+    border: solid 2px #0b1d38;
+}
